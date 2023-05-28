@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsTracker.UI", "SubsTracker.UI\SubsTracker.UI.csproj", "{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010} = {33A8A6FB-F7E5-475E-8B70-D3FB2007F010}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsTracker.Core", "SubsTracker.Core\SubsTracker.Core.csproj", "{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		SubsTracker|Any CPU = SubsTracker|Any CPU
+		SubsTracker|x64 = SubsTracker|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.Debug|x64.ActiveCfg = Debug|x64
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.Debug|x64.Build.0 = Debug|x64
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.Release|x64.ActiveCfg = Release|x64
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.Release|x64.Build.0 = Release|x64
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.SubsTracker|Any CPU.ActiveCfg = SubsTracker|Any CPU
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.SubsTracker|Any CPU.Build.0 = SubsTracker|Any CPU
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.SubsTracker|x64.ActiveCfg = SubsTracker|x64
+		{A7B422B2-49A1-4FD7-A27E-DE06F57DAC4A}.SubsTracker|x64.Build.0 = SubsTracker|x64
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.Debug|x64.ActiveCfg = Debug|x64
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.Debug|x64.Build.0 = Debug|x64
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.Release|x64.ActiveCfg = Release|x64
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.Release|x64.Build.0 = Release|x64
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.SubsTracker|Any CPU.ActiveCfg = SubsTracker|Any CPU
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.SubsTracker|Any CPU.Build.0 = SubsTracker|Any CPU
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.SubsTracker|x64.ActiveCfg = SubsTracker|x64
+		{33A8A6FB-F7E5-475E-8B70-D3FB2007F010}.SubsTracker|x64.Build.0 = SubsTracker|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4B4A86C-FC1B-4EF6-9C3D-D2243C2F6491}
+	EndGlobalSection
+EndGlobal
